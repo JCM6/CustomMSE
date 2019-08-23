@@ -1,0 +1,5 @@
+Celestial:
+If this card would enter the graveyard exile it instead. You may cast this card from exile by discarding a card in addition to this card's mana cost.
+
+Shiftcast:
+You may pay shiftcost and return a basic land you control to it's owner's hand rather than pay cards mana cost.

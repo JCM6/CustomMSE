@@ -1,0 +1,56 @@
+{
+    "cards":[
+        {
+            "name":"CoolCard Yas",
+            "names":[
+                "AltnamesforCard",
+                "yaswhy"
+            ],
+            "manacost":"{3}{W}{R}",
+            "cmc":5,
+            "colors":[
+                "White",
+                "Red"
+            ],
+            "colorIdentity":[
+                "W",
+                "R"
+            ],
+            "type":"Legendary Creature - Beast",
+            "supertypes":[
+                "Legendary"
+            ],
+            "types":[
+                "Creature"
+            ],
+            "subtypes":[
+                "Beast"
+            ],
+            "rarity":"Mythic Rare",
+            "set":"ETR",
+            "text":"Flash\nFlying, vigilance\nWhen Archangel Avacyn enters the battlefield, creatures you control gain indestructible until end of turn.\nWhen a non-Angel creature you control dies, transform Archangel Avacyn at the beginning of the next upkeep.",
+            "artist":"someone",
+            "number":"51",
+            "power":"4",
+            "toughness":"6",
+            "layout":"double-faced",
+            "multiverseid":"etr123",
+            "imageurl":"",
+            "rulings":[  
+                {  
+                "date":"2016-04-08",
+                "text":"Archangel Avacyn’s delayed triggered ability triggers at the beginning of the next upkeep regardless of whose turn it is."
+                },
+                {  
+                "date":"2016-04-08",
+                "text":"Archangel Avacyn’s delayed triggered ability won’t cause it to transform back into Archangel Avacyn if it has already transformed into Avacyn, the Purifier, perhaps because several creatures died in one turn."
+                },
+                {  
+                "date":"2016-04-08",
+                "text":"For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics)."
+                }
+            ]
+        }
+
+    ]
+}
