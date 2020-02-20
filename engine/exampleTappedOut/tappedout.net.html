@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="./tappedout.net_files/amp4ads-host-v0.js.download"></script><script type="text/javascript" src="./tappedout.net_files/c69c4f8a61"></script><script src="./tappedout.net_files/nr-1130.min.js.download"></script><script src="./tappedout.net_files/pubads_impl_rendering_2019082201.js.download"></script><script async="" src="./tappedout.net_files/rtoO0QffvzJtMh23eDaROxS7vupVgnbG8KqT2CbDeo4kTwLjdN4PPLzHzfv-3xeBU7L"></script><script async="" src="./tappedout.net_files/apstag.js.download"></script><script async="" type="text/javascript" src="./tappedout.net_files/gpt.js.download"></script><script async="" src="./tappedout.net_files/analytics.js.download"></script><script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+        
+        
+        
+        <title></title>
+        
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"c69c4f8a61","agent":"","transactionName":"ZFBaZUVSXUtWWxFfCV0afkRZUEdRWFZKQgdDRV1VGVdWW1wWE18DREYCYVtSSkxSSxFTFGVcXUYZVFZM","applicationID":"80862199","errorBeacon":"bam.nr-data.net","applicationTime":136}</script>
+        <meta name="google-site-verification" content="skvXm5i8y-ydYRYG6QYozxfAiRn4n6V3p0oaO9mgfSM">
+        <link rel="icon" type="image/jpg" href="https://static.tappedout.net/s/favicon.ico">
+        <link type="text/css" href="./tappedout.net_files/vendor-1f6db8c4dd17b07b55cc-styles.css" rel="stylesheet">
+        
+        <link type="text/css" href="./tappedout.net_files/tapped-1f6db8c4dd17b07b55cc-styles.css" rel="stylesheet">
+        <link href="./tappedout.net_files/glyphicons.files.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="./tappedout.net_files/glyphicons.social.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="./tappedout.net_files/glyphicons.pro.css" rel="stylesheet" type="text/css" media="screen">
+        
+<link type="text/css" href="./tappedout.net_files/playtest-1f6db8c4dd17b07b55cc-styles.css" rel="stylesheet">
+
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-622331-4', 'auto');
+  ga('send', 'pageview');
+  ga('set', 'anonymizeIp', true);
+
+</script>
+
+        
+            <script type="text/javascript">
+                
+                    var hasDeckAd = false;
+                
+            </script>
+        
+        <script type="text/javascript">
+            var STATIC_URL = "//static.tappedout.net/s/";
+        </script>
+        <script type="text/javascript" src="./tappedout.net_files/vendor.bundle-1f6db8c4dd17b07b55cc.js.download"></script>
+        
+        <script type="text/javascript" src="./tappedout.net_files/tapped-1f6db8c4dd17b07b55cc.js.download"></script>
+        <script type="text/javascript" src="./tappedout.net_files/jquery.tmpl.min.js.download"></script>
+        <script type="text/javascript" src="./tappedout.net_files/socket.io-1.3.5.js.download"></script>
+        <script id="Cookiebot" src="./tappedout.net_files/uc.js.download" data-cbid="c506e8b9-1351-4306-aff6-9c68607b39c3" type="text/javascript"></script><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style>
+        <script type="text/javascript">
+            
+            var inventoryShewn = false;
+            $(document).on('shown.bs.modal', '#inventory', function() {
+                if(inventoryShewn==false){
+                    $.ajax({
+                        url: "/api/toolbox-modal/",
+                        success: function(data){
+                            $('#inv-accordion').html(data);
+                            inventoryShewn = true;
+                        }
+                    });
+                }
+            });
+            var notificationsShewn = false;
+            $(document).on('shown.bs.modal', '#notifications, #chat', function() {
+                if(notificationsShewn==false){
+                    $.ajax({
+                        url: "/api/notifications-modal/",
+                        success: function(data){
+                            $('#notifications-body').html(data.notifications);
+                            notificationsShewn = true;
+                            var count = $("#notifications-clicker").find('.badge-notify').text();
+                            if(count) {
+                                $("#notifications-clicker").find('.badge-notify').text("");
+                            }
+                            $('#chat-modal-body').html(data.chat_messages);
+                            chatsShewn = true;
+                            var count = $("#chat-clicker").find('.badge-notify').text();
+                            if(count) {
+                                $("#chat-clicker").find('.badge-notify').text("");
+                            }
+
+                        }
+                    });
+                }
+            });
+            
+        </script>
+        
+          <!-- Google Tag Services -->
+          <script>
+            (function () {
+              var gads = document.createElement('script');
+              gads.async = true;
+              gads.type = 'text/javascript';
+              var useSSL = 'https:' == document.location.protocol;
+              gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+              var node = document.getElementsByTagName('script')[0];
+              node.parentNode.insertBefore(gads, node);
+            })();
+          </script>
+          <!-- Amazon Publisher Services -->
+          <script>
+            //load the apstag.js library
+            !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+            //initialize the apstag.js library on the page to allow bidding
+            apstag.init({
+                pubID: '4bb95b90-f057-4336-b7c5-819ffc8a9dfd',
+                adServer: 'googletag'
+            });
+          </script>
+          <!-- ad 1x1 -->
+          <script>
+            if (Cookiebot.consented) {
+              var googletag = googletag || {};
+              googletag.cmd = googletag.cmd || [];
+
+              googletag.cmd.push(function () {
+                googletag.defineSlot('/12053669/Tapped_Out_1x1_ROS', [1, 1],
+                  'div-gpt-ad-1548189991982-0').addService(googletag.pubads());
+              });
+            }
+          </script>
+          <!-- prebidjs -->
+          
+  
+
+
+<script>
+  var STARTUP_TIMEOUT = 900;
+  var REFRESH_TIMEOUT = 60000;
+  var MAX_REFRESH_TIMES = 3;
+  var GAMCODE = '12053669';
+</script>
+
+<script>
+  function computeAPSSlots() {
+    var apsSlots = [];
+    var w = window;
+    var d = document;
+    var e = d.documentElement;
+    var g = d.getElementsByTagName('body')[0];
+    var browserWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+    var browserHeight = w.innerHeight || e.clientHeight || g.clientHeight;
+
+    
+  if (browserWidth >= 992 && browserHeight >= 0) {
+    apsSlots.push({
+      slotID: 'div-gpt-ad-1491787755236-4',
+      slotName: '/' + GAMCODE + '/Tapped_Out_728x90_BTF',
+      sizes: [[970, 250], [970, 90], [728, 90]]
+    });
+  }
+
+
+    return apsSlots;
+  }
+
+  var apsSlots = computeAPSSlots();
+
+  if (hasDeckAd && apsSlots[0].slotID.endsWith("-0")) var removedApsSlot = apsSlots.shift();
+
+  
+    apstag.fetchBids({
+      slots: apsSlots,
+      timeout: STARTUP_TIMEOUT
+    }, function(bids) {
+      googletag.cmd.push(function() {
+        apstag.setDisplayBids();
+      })
+    });
+  
+</script>
+
+<script>
+  function computeAdUnits() {
+    var adUnits = [];
+    var w = window;
+    var d = document;
+    var e = d.documentElement;
+    var g = d.getElementsByTagName('body')[0];
+    var browserWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+
+    
+  if (browserWidth >= 992) {
+    adUnits.push({code:'div-gpt-ad-1491787755236-4',
+      mediaTypes: {
+        banner: {
+          sizes:[[970, 250], [970, 90], [728, 90]]
+        }
+      },
+      bids:[
+        {bidder:'appnexus',params:{placementId:'13931087'}},
+        {bidder:'conversant',params:{site_id:'121973'}},
+        {bidder:'districtm',params:{placementId:'13931292'}},
+        {bidder:'districtmDMX',params:{memberid:'101259',dmxid:'245175'}},
+        {bidder:'ix',params:{siteId:'320019',size:[970,250]}},
+        {bidder:'ix',params:{siteId:'320019',size:[970,90]}},
+        {bidder:'ix',params:{siteId:'320019',size:[728,90]}},
+        {bidder:'sovrn',params:{tagid:'589130'}}
+      ]});
+  }
+
+
+    return adUnits;
+  }
+
+  var pbjs = pbjs || {};
+  pbjs.que = pbjs.que || [];
+
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  googletag.cmd.push(function() {
+    googletag.pubads().disableInitialLoad();
+  });
+
+  pbjs.que.push(function() {
+    var adUnits = computeAdUnits();
+
+    if (hasDeckAd && adUnits[0].code.endsWith("-0")) var removedAdUnit = adUnits.shift();
+
+    pbjs.addAdUnits(adUnits);
+    pbjs.bidderSettings = {
+      standard: {
+        adserverTargeting: [
+          { key: "hb_bidder",
+            val: function (bidResponse) { return bidResponse.bidderCode; } },
+          { key: "hb_adid",
+            val: function (bidResponse) { return bidResponse.adId; } },
+          { key: "hb_pb",
+            val: function (bidResponse) {
+              var cpm = bidResponse.cpm;
+              if (cpm > 20.00) {
+                return 20.00;
+              }
+              return (Math.floor(cpm * 100) / 100).toFixed(2);
+            }
+          }
+        ]
+      },
+      districtm: {
+        bidCpmAdjustment: function(bidCpm, bid){ return bidCpm * .85; }
+      }
+    };
+    pbjs.setConfig({
+      enableSendAllBids: false
+    });
+    
+      pbjs.requestBids({
+        bidsBackHandler: sendAdserverRequest
+      });
+    
+  });
+
+  function sendAdserverRequest() {
+    if (pbjs.adserverRequestSent) return;
+    pbjs.adserverRequestSent = true;
+    googletag.cmd.push(function() {
+      pbjs.que.push(function() {
+        pbjs.setTargetingForGPTAsync();
+        googletag.pubads().refresh();
+        /* TODO: Deactivate this momentarily in order to check for some bugs
+        googletag.pubads().addEventListener("slotRenderEnded",
+          function(event) {
+            if (!event.isEmpty && event.slot.getSlotElementId() === "div-gpt-ad-1491787755236-0") {
+              $('.banner-ad').css('height', $('.banner-ad iframe').height() + 'px');
+            }
+          }
+        );
+        */
+      });
+    });
+  }
+
+  
+      setTimeout(sendAdserverRequest, STARTUP_TIMEOUT);
+  
+
+  var googleSlots = [];
+
+  googletag.cmd.push(function() {
+    var w = window;
+    var d = document;
+    var e = d.documentElement;
+    var g = d.getElementsByTagName('body')[0];
+    var browserWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+    var browserHeight = w.innerHeight || e.clientHeight || g.clientHeight;
+    var slot, slotCode, slotName;
+
+    
+  if (browserWidth >= 992 && browserHeight >= 0) {
+    slotName = '/' + GAMCODE + '/Tapped_Out_728x90_BTF';
+    slotCode = 'div-gpt-ad-1491787755236-4';
+    slot = googletag.defineSlot(slotName, [[970, 250], [970, 90], [728, 90]],
+      slotCode).setTargeting("refresh", ["1"]).addService(googletag.pubads());
+    googleSlots.push({code: slotCode, name: slotName, slot: slot, wasSeen: false, refreshTimes: 1});
+  }
+
+
+    if (hasDeckAd && googleSlots[0].code.endsWith("-0")) var removedGoogleSlot = googleSlots.shift();
+
+    var adSectionReference = (function() {
+      var basePath = window.location.pathname.replace(/\//g, " ").trim().split(/\s+/)[0];
+      var basePathToSection = {
+        "magic-cards": "Cards",
+        "communcommunity": "Community",
+        "mtg-cube-drafts": "Cubes",
+        "mtg-deck-builder": "Deck Builder",
+        "mtg-draft-simulator": "Draft Sim",
+        "meets": "Events",
+        "mtg-forum": "Forums",
+        "mtg-questions": "Rules",
+        "users": "Users",
+        "mtg-decks": "Decks"
+      }
+
+      if (basePath === "") return "Home";
+      else if (basePathToSection.hasOwnProperty(basePath)) return basePathToSection[basePath];
+      else return "Unmatched Section: " + basePath;
+    })();
+
+    googletag.pubads().setTargeting("sections", adSectionReference);
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+
+  
+  googletag.cmd.push(function() {
+    googletag.display('div-gpt-ad-1491787755236-4');
+  });
+
+</script>
+
+<script>
+  function refreshBid(slotValue) {
+    apstag.fetchBids({
+      slots: apsSlots.filter((slot) => slot.slotID === slotValue.code),
+      timeout: STARTUP_TIMEOUT
+    }, function(bids) {
+      googletag.cmd.push(function() {
+        apstag.setDisplayBids();
+      })
+    });
+
+    pbjs.que.push(function() {
+      pbjs.requestBids({
+        adUnitCodes: [slotValue.code],
+        timeout: STARTUP_TIMEOUT,
+        bidsBackHandler: function() {
+          pbjs.setTargetingForGPTAsync([slotValue.code]);
+          googletag.pubads().refresh([
+            slotValue.slot.setTargeting("refresh", [(++slotValue.refreshTimes).toString()])
+          ]);
+          slotValue.wasSeen = false;
+        }
+      });
+    });
+  }
+
+  function refreshBids() {
+    googleSlots
+      .filter((slotValue) => slotValue.refreshTimes <= MAX_REFRESH_TIMES &&
+                             (slotValue.wasSeen || $("#" + slotValue.code).visible()))
+      .forEach((slotValue) => refreshBid(slotValue));
+    setTimeout(refreshBids, REFRESH_TIMEOUT);
+  }
+
+  $(window).scroll(() => {
+    googleSlots.forEach((slotValue) => {
+      slotValue.wasSeen =  $("#" + slotValue.code).visible() || slotValue.wasSeen;
+    });
+  });
+
+  
+    setTimeout(refreshBids, REFRESH_TIMEOUT);
+  
+</script>
+
+
+          <!-- ad block tracker -->
+          
+            <script type="text/javascript">
+  !(function(o,n,t){t=o.createElement(n),o=o.getElementsByTagName(n)[0],t.async=1,t.src="https://stiffstem.com/v2/0/rtoO0QffvzJtMh23eDaROxS7vupVgnbG8KqT2CbDeo4kTwLjdN4PPLzHzfv-3xeBU7L",o.parentNode.insertBefore(t,o)})(document,"script"),(function(o,n){o[n]=o[n]||function(){(o[n].q=o[n].q||[]).push(arguments)}})(window,"admiral");!(function(n,e,r,t){function o(){if((function o(t){try{return(t=localStorage.getItem("v4ac1eiZr0"))&&0<t.split(",")[4]}catch(n){}return!1})()){var t=n[e].pubads();typeof t.setTargeting===r&&t.setTargeting("admiral-engaged","true")}}(t=n[e]=n[e]||{}).cmd=t.cmd||[],typeof t.pubads===r?o():typeof t.cmd.unshift===r?t.cmd.unshift(o):t.cmd.push(o)})(window,"googletag","function");;;;;
+</script>
+          
+        
+        
+<script type="text/javascript" src="./tappedout.net_files/playtest-1f6db8c4dd17b07b55cc.js.download"></script>
+<script type="text/javascript">
+$(function(){
+    var playtest_json = {"cards": [{"edition": "CM1", "type": "Instant", "name": "Altar's Reap", "image_path": "cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png"}, {"edition": "CM1", "type": "Instant", "name": "Altar's Reap", "image_path": "cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png"}, {"edition": "CM1", "type": "Instant", "name": "Altar's Reap", "image_path": "cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png"}, {"edition": "CM1", "type": "Instant", "name": "Altar's Reap", "image_path": "cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png"}, {"edition": "WAR", "type": "Creature", "name": "Banehound", "pt": "1/1", "image_path": "cache/32/71/3271e83fe153a369cda98795356a205a.png"}, {"edition": "WAR", "type": "Creature", "name": "Banehound", "pt": "1/1", "image_path": "cache/32/71/3271e83fe153a369cda98795356a205a.png"}, {"edition": "WAR", "type": "Creature", "name": "Banehound", "pt": "1/1", "image_path": "cache/32/71/3271e83fe153a369cda98795356a205a.png"}, {"edition": "WAR", "type": "Creature", "name": "Banehound", "pt": "1/1", "image_path": "cache/32/71/3271e83fe153a369cda98795356a205a.png"}, {"edition": "EXO", "type": "Creature", "name": "Carnophage", "pt": "2/2", "image_path": "cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png"}, {"edition": "EXO", "type": "Creature", "name": "Carnophage", "pt": "2/2", "image_path": "cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png"}, {"edition": "EXO", "type": "Creature", "name": "Carnophage", "pt": "2/2", "image_path": "cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png"}, {"edition": "EXO", "type": "Creature", "name": "Carnophage", "pt": "2/2", "image_path": "cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png"}, {"edition": "A25", "type": "Instant", "name": "Dark Ritual", "image_path": "cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png"}, {"edition": "A25", "type": "Instant", "name": "Dark Ritual", "image_path": "cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png"}, {"edition": "A25", "type": "Instant", "name": "Dark Ritual", "image_path": "cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png"}, {"edition": "A25", "type": "Instant", "name": "Dark Ritual", "image_path": "cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png"}, {"edition": "AVR", "type": "Sorcery", "name": "Essence Harvest", "image_path": "cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png"}, {"edition": "AVR", "type": "Sorcery", "name": "Essence Harvest", "image_path": "cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png"}, {"edition": "AVR", "type": "Sorcery", "name": "Essence Harvest", "image_path": "cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png"}, {"edition": "TSP", "type": "Creature", "name": "Sangrophage", "pt": "3/3", "image_path": "cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png"}, {"edition": "TSP", "type": "Creature", "name": "Sangrophage", "pt": "3/3", "image_path": "cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png"}, {"edition": "TSP", "type": "Creature", "name": "Sangrophage", "pt": "3/3", "image_path": "cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png"}, {"edition": "TSP", "type": "Creature", "name": "Sangrophage", "pt": "3/3", "image_path": "cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png"}, {"edition": "MM2", "type": "Sorcery", "name": "Sign in Blood", "image_path": "cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png"}, {"edition": "MM2", "type": "Sorcery", "name": "Sign in Blood", "image_path": "cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png"}, {"edition": "MM2", "type": "Sorcery", "name": "Sign in Blood", "image_path": "cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png"}, {"edition": "MM2", "type": "Sorcery", "name": "Sign in Blood", "image_path": "cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png"}, {"edition": "ME2", "type": "Enchantment", "name": "Soul Kiss", "image_path": "cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png"}, {"edition": "ME2", "type": "Enchantment", "name": "Soul Kiss", "image_path": "cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png"}, {"edition": "ME2", "type": "Enchantment", "name": "Soul Kiss", "image_path": "cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png"}, {"edition": "ME2", "type": "Enchantment", "name": "Soul Kiss", "image_path": "cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "C19", "type": "Basic Land", "name": "Swamp", "image_path": "cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png"}, {"edition": "M11", "type": "Enchantment", "name": "Unholy Strength", "image_path": "cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png"}, {"edition": "M11", "type": "Enchantment", "name": "Unholy Strength", "image_path": "cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png"}, {"edition": "M11", "type": "Enchantment", "name": "Unholy Strength", "image_path": "cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png"}, {"edition": "M11", "type": "Enchantment", "name": "Unholy Strength", "image_path": "cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png"}, {"edition": "A25", "type": "Creature", "name": "Vampire Lacerator", "pt": "2/2", "image_path": "cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png"}, {"edition": "A25", "type": "Creature", "name": "Vampire Lacerator", "pt": "2/2", "image_path": "cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png"}, {"edition": "A25", "type": "Creature", "name": "Vampire Lacerator", "pt": "2/2", "image_path": "cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png"}, {"edition": "A25", "type": "Creature", "name": "Vampire Lacerator", "pt": "2/2", "image_path": "cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png"}], "media_root": "//static.tappedout.net/", "sideboard": [], "tokens": []};
+    var isCommander = false;
+    TAPPED_PLAYTEST.init(7, playtest_json, isCommander);
+});
+</script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                $(".prompt").click(function(e){
+                    confirmation = confirm($(this).data('prompt'));
+                    return confirmation;
+                });
+                $(".delete").click(function(e){
+                    confirmation = confirm("Are you sure you want to delete this item?");
+                    return confirmation;
+                });
+                function adBlockDetected() {
+                    ga('set', 'dimension1', 1);
+                    if(window.getCookie('adblocker') != "1"){
+                        window.setCookie('adblocker', 1, 1);
+                    }
+                }
+                function adBlockNotDetected() {
+                    ga('set', 'dimension1', 0);
+                    if(window.getCookie('adblocker') == "1"){
+                        window.setCookie('adblocker', 0, 1);
+                    }
+                }
+                if(typeof fuckAdBlock === 'undefined') {
+                    adBlockDetected();
+                } else {
+                    fuckAdBlock.onDetected(adBlockDetected);
+                    fuckAdBlock.onNotDetected(adBlockNotDetected);
+                }
+                CORE.initResponsiveImages();
+                CORE.initResponsiveEmbed();
+                REACTIONS.initialize();
+                
+                
+                
+                TAPPED.observeCards({vendors: ['TCG', 'CH']});
+                
+                
+                TAPPED.initSpoiler();
+                
+            });
+            $(document).on('click', ".broadcast-clicker", function(e){
+                //close the notifs modal in case clicking from a notification
+                $("#notifications").modal('hide')
+                e.preventDefault();
+            });
+            $(document).on('click', ".mark-chat-read-clicker", function(){
+                var other = $(this).data("other");
+                $.ajax({
+                    url: "/pm/api/mark-read/",
+                    data: {"other_user": other},
+                    dataType: "json",
+                    type: 'POST',
+                    success: function(data){
+                        $("#chat-notif-" + other).remove();
+                        $("#unread-badge-" + other).remove();
+                        if ($("#chat-modal-body .row").length == 1){
+                            $("#chat-modal-message").removeClass("hidden");
+                        }
+                        var bdg = $("#unread-badge");
+                        var new_val = parseInt(bdg.html()) - 1;
+                        if (new_val > 0) {
+                            bdg.html(new_val)
+                        } else {
+                            bdg.remove()
+                        }
+                    }
+                });
+            });
+        </script>
+        
+        <style>
+            select.tappedout_sorter {
+                width: auto !important;
+            }
+        </style>
+    <link rel="preload" href="./tappedout.net_files/f.txt" as="script"><script type="text/javascript" src="./tappedout.net_files/f.txt"></script><script src="./tappedout.net_files/pubads_impl_2019082201.js.download" async=""></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html"></head>
+    <body id="sitebody" class="site-tappedout" style="cursor: auto;">
+        
+          <!-- /12053669/Tapped_Out_1x1_ROS --><div id="div-gpt-ad-1548189991982-0" style="height:1px; width:1px;" data-google-query-id="CNGB5ITNqOQCFYvLZAodXeEB8w"><div id="google_ads_iframe_/12053669/Tapped_Out_1x1_ROS_0__container__" style="border: 0pt none; width: 1px; height: 1px;"></div></div>
+        
+        <div id="main-content">
+            
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header pull-left">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tappedout.net/mtg-decks/mblack-aggro-1/"><img class="chart deck-chart" src="./tappedout.net_files/0-0-100-0-0.png" alt="deck chart"></a>
+            <p class="navbar-text hidden-xs">
+                <a title="mtg decks - MBLack Aggro" href="https://tappedout.net/mtg-decks/mblack-aggro-1/">MBLack Aggro </a> by  <a href="https://tappedout.net/users/Fredstack/">Fredstack</a>
+            </p>
+            <p class="navbar-text">
+                Turn <span id="turn">1</span>
+            </p>
+        </div>
+        <div class="navbar-header">
+            <ul class="nav pull-left">
+                <li class="dropdown">
+                    <a data-target="#" id="life-counter" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Life 1
+                        (<span class="global-counter">20</span>)
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="life-list" class="dropdown-menu scrollable-menu"></ul>
+                </li>
+                <li class="dropdown">
+                    <a data-target="#" id="life2-counter" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Life 2
+                        (<span class="global-counter">20</span>)
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="life2-list" class="dropdown-menu scrollable-menu"></ul>
+                </li>
+                <li class="dropdown">
+                    <a data-target="#" id="poison-counter" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Poison
+                        (<span class="global-counter">0</span>)
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="poison-list" class="dropdown-menu scrollable-menu"></ul>
+                </li>
+                <li class="dropdown">
+                    <a data-target="#" id="energy-counter" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Energy
+                        (<span class="global-counter">0</span>)
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="energy-list" class="dropdown-menu scrollable-menu"></ul>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a id="edit-board" hotkey="shift+b" role="button" data-toggle="modal" data-target="#edit-board-modal">Sideboard swaps</a>
+                </li>
+                <li>
+                    <a id="settings" role="button" hotkey="shift+s" data-toggle="modal" data-target="#settings-modal">Settings</a>
+                </li>
+                <li>
+                    <a id="shortcuts" role="button" hotkey="shift+h" data-toggle="modal" data-target="#help-modal">Shortcuts</a>
+                </li>
+                <li>
+                    <a class="btn btn-danger" id="restart" hotkey="shift+r" role="button">Restart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        
+        <div class="col-md-10 col-sm-9 col-xs-12">
+            <div id="battlefield" class="well col-xs-12 ui-droppable">
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+                <div class="battlefield-cell col-md-2 col-sm-3 col-xs-2 droppable">
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="hidden-xs col-sm-3 col-md-2 sidebar">
+            <a class="btn btn-block btn-primary btn-sm" id="next-turn" hotkey="n" role="button">Next turn</a>
+<select class="tutor select2-hidden-accessible" tabindex="-1" aria-hidden="true"></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-i5fc-container"><span class="select2-selection__rendered" id="select2-i5fc-container"><span class="select2-selection__placeholder">Tutor card</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+
+<a class="btn btn-block btn-primary btn-sm" data-toggle="modal" data-target="#custom-token-modal" role="button">Custom Token</a>
+<a class="btn btn-block btn-block btn-primary btn-sm" id="untap" hotkey="u" role="button">Untap all</a>
+<a class="btn btn-block btn-primary btn-sm" id="shuffle" hotkey="s" role="button">Shuffle</a>
+
+<a class="btn btn-block btn-primary btn-sm" id="dice" hotkey="r" role="button">Roll dice</a>
+
+<a class="btn btn-block btn-primary btn-sm" id="mulligan" hotkey="m" role="button">Mulligan</a>
+<div class="btn-group btn-group-justified" role="group">
+    <a class="btn btn-danger btn-xs" role="button" onclick="TAPPED_PLAYTEST.addCounter(&#39;power&#39;, -1)" hotkey="alt+shift+q">-1 power</a>
+    <a class="btn btn-success btn-xs" role="button" onclick="TAPPED_PLAYTEST.addCounter(&#39;power&#39;, 1)" hotkey="alt+q">+1 power</a>
+</div>
+<div class="btn-group btn-group-justified" role="group">
+    <a class="btn btn-danger btn-xs" role="button" onclick="TAPPED_PLAYTEST.addCounter(&#39;toughness&#39;, -1)" hotkey="alt+shift+w">-1 token</a>
+    <a class="btn btn-success btn-xs" role="button" onclick="TAPPED_PLAYTEST.addCounter(&#39;toughness&#39;, 1)" hotkey="alt+w">+1 token</a>
+</div>
+<div class="btn-group btn-group-justified" role="group">
+    <a class="btn btn-danger btn-xs" role="button" onclick="TAPPED_PLAYTEST.addCounter(&#39;counters&#39;, -1)" hotkey="alt+shift+g">-1 counter</a>
+    <a class="btn btn-success btn-xs" role="button" onclick="TAPPED_PLAYTEST.addCounter(&#39;counters&#39;, 1)" hotkey="alt+g">+1 counter</a>
+</div>
+
+        </div>
+        
+    </div>
+    <div class="row hand-row">
+        
+        <div class="col-md-8" id="hand-container">
+            <h3 id="hand-title" class="dropup">
+                <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hand: <span>7</span></a>
+                <a class="btn btn-default btn-xs" id="hide-hand" hotkey="h" role="button">Hide</a>
+                <ul id="hand-list" class="dropdown-menu scrollable-menu"></ul>
+            </h3>
+            <div id="hand" class="well droppable ui-droppable"><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png&quot;); position: relative; left: 0px; z-index: 0;" data-image="//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png" title="" data-original-title="Carnophage">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png&quot;); position: relative; left: 0px; z-index: 0;" data-image="//static.tappedout.net/cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png" title="" data-original-title="Essence Harvest">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png&quot;); position: relative; left: 0px; z-index: 0;" data-image="//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png" title="" data-original-title="Soul Kiss">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png&quot;); position: relative; left: 0px; z-index: 0;" data-image="//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png" title="" data-original-title="Vampire Lacerator">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; left: 0px; z-index: 0;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 0; opacity: 1; left: 0px;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; left: 0px; z-index: 0;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down hidden"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div></div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-sm-12 col-xs-7">
+                    
+                    <div class="col-xs-12 fixed-zone">
+                        <h3 id="library-title" class="dropup"><a data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Library: <span>53</span></a>
+                            <ul id="library-list" class="dropdown-menu scrollable-menu"></ul>
+                        </h3>
+                        <div id="library" class="well droppable ui-droppable stack"><div class="draggable draw-card ui-draggable ui-draggable-handle" style="background-image: url(&quot;//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png&quot;); position: relative; z-index: 8;" data-image="//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png" title="" data-original-title="Carnophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png&quot;); position: relative; z-index: 9;" data-image="//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png" title="" data-original-title="Vampire Lacerator">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png&quot;); position: relative; z-index: 10;" data-image="//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png" title="" data-original-title="Unholy Strength">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png&quot;); position: relative; z-index: 11;" data-image="//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png" title="" data-original-title="Sangrophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 12;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png&quot;); position: relative; z-index: 13;" data-image="//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png" title="" data-original-title="Sign in Blood">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 14;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png&quot;); position: relative; z-index: 15;" data-image="//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png" title="" data-original-title="Altar&#39;s Reap">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 16;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png&quot;); position: relative; z-index: 17;" data-image="//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png" title="" data-original-title="Dark Ritual">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png&quot;); position: relative; z-index: 18;" data-image="//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png" title="" data-original-title="Sangrophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 19;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png&quot;); position: relative; z-index: 20;" data-image="//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png" title="" data-original-title="Sign in Blood">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png&quot;); position: relative; z-index: 21;" data-image="//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png" title="" data-original-title="Banehound">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png&quot;); position: relative; z-index: 22;" data-image="//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png" title="" data-original-title="Dark Ritual">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 23;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 24;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png&quot;); position: relative; z-index: 25;" data-image="//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png" title="" data-original-title="Unholy Strength">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png&quot;); position: relative; z-index: 26;" data-image="//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png" title="" data-original-title="Altar&#39;s Reap">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 27;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png&quot;); position: relative; z-index: 28;" data-image="//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png" title="" data-original-title="Sangrophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png&quot;); position: relative; z-index: 29;" data-image="//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png" title="" data-original-title="Sign in Blood">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 30;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 31;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png&quot;); position: relative; z-index: 32;" data-image="//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png" title="" data-original-title="Carnophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png&quot;); position: relative; z-index: 33;" data-image="//static.tappedout.net/cache/f6/d8/f6d86ed554d61728a89e192d89bf6776.png" title="" data-original-title="Carnophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png&quot;); position: relative; z-index: 34;" data-image="//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png" title="" data-original-title="Banehound">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png&quot;); position: relative; z-index: 35;" data-image="//static.tappedout.net/cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png" title="" data-original-title="Essence Harvest">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png&quot;); position: relative; z-index: 36;" data-image="//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png" title="" data-original-title="Soul Kiss">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png&quot;); position: relative; z-index: 37;" data-image="//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png" title="" data-original-title="Banehound">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png&quot;); position: relative; z-index: 38;" data-image="//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png" title="" data-original-title="Altar&#39;s Reap">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card  ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png&quot;); position: relative; z-index: 39;" data-image="//static.tappedout.net/cache/f3/81/f38122465a1853145d7cf4d78d8c448b.png" title="" data-original-title="Altar&#39;s Reap">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 40;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 41;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 42;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png&quot;); position: relative; z-index: 43;" data-image="//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png" title="" data-original-title="Dark Ritual">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png&quot;); position: relative; z-index: 44;" data-image="//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png" title="" data-original-title="Unholy Strength">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png&quot;); position: relative; z-index: 45;" data-image="//static.tappedout.net/cache/cf/22/cf2230e7886c0026a34e7601b30da8b4.png" title="" data-original-title="Sign in Blood">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png&quot;); position: relative; z-index: 46;" data-image="//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png" title="" data-original-title="Soul Kiss">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 47;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 48;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png&quot;); position: relative; z-index: 49;" data-image="//static.tappedout.net/cache/26/de/26de87e4b9c822af5bd95268942c0a6a.png" title="" data-original-title="Soul Kiss">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png&quot;); position: relative; z-index: 50;" data-image="//static.tappedout.net/cache/32/71/3271e83fe153a369cda98795356a205a.png" title="" data-original-title="Banehound">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 51;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png&quot;); position: relative; z-index: 52;" data-image="//static.tappedout.net/cache/dc/7a/dc7a993b2d5612e6b9726caafef6c7a2.png" title="" data-original-title="Dark Ritual">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 53;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png&quot;); position: relative; z-index: 54;" data-image="//static.tappedout.net/cache/d5/65/d565f53eac3c4f5ed007954dcc87d3be.png" title="" data-original-title="Sangrophage">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png&quot;); position: relative; z-index: 55;" data-image="//static.tappedout.net/cache/f2/ea/f2ead2507f24d8efa495ab8a191c1bf2.png" title="" data-original-title="Essence Harvest">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 56;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png&quot;); position: relative; z-index: 57;" data-image="//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png" title="" data-original-title="Vampire Lacerator">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png&quot;); position: relative; z-index: 58;" data-image="//static.tappedout.net/cache/53/07/53073e651f6e22f9f7fbafeaee02bbc1.png" title="" data-original-title="Swamp">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png&quot;); position: relative; z-index: 59;" data-image="//static.tappedout.net/cache/e6/1c/e61cb1c42bb47a2aa5a4b44f2a1f597d.png" title="" data-original-title="Unholy Strength">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div><div class="draggable draw-card ui-draggable ui-draggable-handle hidden" style="background-image: url(&quot;//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png&quot;); position: relative; z-index: 60;" data-image="//static.tappedout.net/cache/02/ba/02ba60397db7f25e1b2badd837b983c7.png" title="" data-original-title="Vampire Lacerator">
+        <div class="face-down"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div></div>
+                    </div>
+                    
+                    
+                    <div class="col-xs-12 fixed-zone">
+                        <h3 id="graveyard-title" class="dropup"><a data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Graveyard: <span>0</span></a>
+                            <ul id="graveyard-list" class="dropdown-menu scrollable-menu"></ul>
+                        </h3>
+                        <div id="graveyard" class="well droppable ui-droppable stack"></div>
+                    </div>
+                    
+                    
+                    <div class="col-xs-12 fixed-zone">
+                        <h3 id="exiled-title" class="dropup"><a data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exiled: <span id="counter">0</span></a>
+                            <ul id="exiled-list" class="dropdown-menu scrollable-menu"></ul>
+                        </h3>
+                        <div id="exiled" class="well droppable ui-droppable stack"></div>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                
+        </div>
+    </div>
+  <div class="row hidden-xs">
+    <div class="state-ad" style="text-align:center;">
+      <div class="text-center" id="div-gpt-ad-1491787755236-4" data-google-query-id="CLvR5YTNqOQCFYvLZAodXeEB8w"><div id="google_ads_iframe_/12053669/Tapped_Out_728x90_BTF_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/12053669/Tapped_Out_728x90_BTF_0" title="3rd party ad content" name="google_ads_iframe_/12053669/Tapped_Out_728x90_BTF_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-google-container-id="2" data-load-complete="true" src="./tappedout.net_files/saved_resource.html"></iframe></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="card-detail" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    <button class="btn btn-danger btn-sm pull-right" type="button" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                    <span class="name"></span>
+                    <span class="small tla"></span>
+                </h4>
+            </div>
+            <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="image img-responsive">
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="btn-block btn btn-primary" id="modal-tap" hotkey="t">Tap</a>
+                            <a hotkey="f" id="modal-facedown" class="btn btn-block btn-primary">Flip</a>
+                            <div class="btn-group btn-block">
+                                <a class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Move to <span class="caret"></span></a>
+                                <ul class="dropdown-menu scrollable-menu">
+                                    <li><a class="move-to-button" data-move-to="#hand" hotkey="a">Hand</a></li>
+                                    <li><a class="move-to-button" data-move-to="#battlefield" hotkey="b">Battlefield</a></li>
+                                    
+                                    <li><a class="move-to-button" data-move-to="#library" data-top="true" hotkey="y">Library Top</a></li>
+                                    <li><a class="move-to-button" data-move-to="#library" hotkey="shift+y">Library Bottom</a></li>
+                                    <li><a class="move-to-button" data-move-to="#graveyard" data-top="true" hotkey="g">Graveyard</a></li>
+                                    <li><a class="move-to-button" data-move-to="#exiled" data-top="true" hotkey="x">Exiled</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <label for="power">Power: </label>
+                                <input type="number" min="0" value="0" class="form-control" id="power">
+                            </div>
+                            <div class="form-group">
+                                <label for="toughness">Toughness: </label>
+                                <input type="number" min="0" value="0" class="form-control" id="toughness">
+                            </div>
+                            <div class="form-group">
+                                <label for="counters">Counters: </label>
+                                <input type="number" min="0" value="0" class="form-control" id="counters">
+                            </div>
+                            <div class="btn-block btn-group btn-group actions" role="group">
+                                <a class="btn col-xs-6 btn-primary btn-sm" id="add-counter" role="button">Add +1/+1</a>
+                                <a class="btn col-xs-6 btn-primary btn-sm" id="rm-counter" role="button" hotkey="f">Remove +1/+1</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <hr>
+                        <label for="notes">Notes: </label>
+                        <textarea class="form-control" id="notes"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default btn-sm" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="help-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-danger btn-sm pull-right" type="button" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                <h4 class="modal-title">Keyboard shortcuts</h4>
+            </div>
+            <div class="modal-body">
+                
+                <h4>Card commands</h4>
+                <ul>
+                    <li><b>hold click, spacebar</b>: view card details.</li>
+                    <li><b>q, w, e</b>: increase power, toughness or counters amount.</li>
+                    <li><b>Q, W, E</b>: decrease power, toughness or counters amount.</li>
+                    <li><b>t</b>: tap or untap.</li>
+                    <li><b>f</b>: facedown or transform.</li>
+                    <li><b>a, b, y, Y, g, x</b>: moveto Hand, Battlefield, top of Library, bottom of Library, Graveyard or Exiled.</li>
+                </ul>
+                <h4>Global commands</h4>
+                <ul>
+                    <li><b>d</b>: draw a card.</li>
+                    <li><b>alt+q, alt+w, alt+g</b>: increase power, toughness or counters amount on all cards.</li>
+                    <li><b>alt+Q, alt+W, alt+G</b>: decrease power, toughness or counters amount on all cards.</li>
+                    <li><b>l, L</b>: increase or decrease life counter.</li>
+                    <li><b>p, P</b>: increase or decrease poison counter.</li>
+                    <li><b>n</b>: next turn.</li>
+                    <li><b>u</b>: untap all cards.</li>
+                    <li><b>h</b>: hide hand.</li>
+                    <li><b>r</b>: roll dice.</li>
+                    <li><b>s</b>: shuffle.</li>
+                    <li><b>c</b>: put commander in command zone.</li>
+                    <li><b>m</b>: mulligan.</li>
+                    <li><b>R</b>: restart.</li>
+                    <li><b>S</b>: show the settings dialog.</li>
+                    <li><b>H</b>: show this dialog.</li>
+                </ul>
+                
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default btn-sm" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="settings-modal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-danger btn-sm pull-right" type="button" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                <h4 class="modal-title">Settings</h4>
+            </div>
+            <div class="modal-body">
+                <div class="checkbox">
+                    <label><input type="checkbox" id="opt-snap"> Snap to grid</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" id="opt-fixedHand"> Fixed hand</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" id="opt-autoUntap"> Auto untap</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" id="opt-autoDraw"> Auto draw</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" id="opt-smallCards"> Small cards</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default btn-sm" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="edit-board-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-danger btn-sm pull-right" type="button" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                <h4 class="modal-title">Edit board</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="bootstrap-duallistbox-container row"> <div class="box1 col-md-6">   <label for="bootstrap-duallistbox-nonselected-list_">Main board</label>   <span class="info-container">     <span class="info">Showing all 60</span>     <button type="button" class="btn clear1 pull-right btn-default btn-xs">show all</button>   </span>   <input class="filter form-control" type="text" placeholder="Filter">   <div class="btn-group buttons">     <button type="button" class="btn moveall btn-default" title="Move all">       <i class="glyphicon glyphicon-arrow-right"></i>       <i class="glyphicon glyphicon-arrow-right"></i>     </button>     <button type="button" class="btn move btn-default" title="Move selected">       <i class="glyphicon glyphicon-arrow-right"></i>     </button>   </div>   <select multiple="multiple" id="bootstrap-duallistbox-nonselected-list_" class="form-control" name="_helper1" style="height: 202px;"><option value="cards-0">Altar's Reap (CM1)</option><option value="cards-1">Altar's Reap (CM1)</option><option value="cards-2">Altar's Reap (CM1)</option><option value="cards-3">Altar's Reap (CM1)</option><option value="cards-4">Banehound (WAR)</option><option value="cards-5">Banehound (WAR)</option><option value="cards-6">Banehound (WAR)</option><option value="cards-7">Banehound (WAR)</option><option value="cards-8">Carnophage (EXO)</option><option value="cards-9">Carnophage (EXO)</option><option value="cards-10">Carnophage (EXO)</option><option value="cards-11">Carnophage (EXO)</option><option value="cards-12">Dark Ritual (A25)</option><option value="cards-13">Dark Ritual (A25)</option><option value="cards-14">Dark Ritual (A25)</option><option value="cards-15">Dark Ritual (A25)</option><option value="cards-16">Essence Harvest (AVR)</option><option value="cards-17">Essence Harvest (AVR)</option><option value="cards-18">Essence Harvest (AVR)</option><option value="cards-19">Sangrophage (TSP)</option><option value="cards-20">Sangrophage (TSP)</option><option value="cards-21">Sangrophage (TSP)</option><option value="cards-22">Sangrophage (TSP)</option><option value="cards-23">Sign in Blood (MM2)</option><option value="cards-24">Sign in Blood (MM2)</option><option value="cards-25">Sign in Blood (MM2)</option><option value="cards-26">Sign in Blood (MM2)</option><option value="cards-27">Soul Kiss (ME2)</option><option value="cards-28">Soul Kiss (ME2)</option><option value="cards-29">Soul Kiss (ME2)</option><option value="cards-30">Soul Kiss (ME2)</option><option value="cards-31">Swamp (C19)</option><option value="cards-32">Swamp (C19)</option><option value="cards-33">Swamp (C19)</option><option value="cards-34">Swamp (C19)</option><option value="cards-35">Swamp (C19)</option><option value="cards-36">Swamp (C19)</option><option value="cards-37">Swamp (C19)</option><option value="cards-38">Swamp (C19)</option><option value="cards-39">Swamp (C19)</option><option value="cards-40">Swamp (C19)</option><option value="cards-41">Swamp (C19)</option><option value="cards-42">Swamp (C19)</option><option value="cards-43">Swamp (C19)</option><option value="cards-44">Swamp (C19)</option><option value="cards-45">Swamp (C19)</option><option value="cards-46">Swamp (C19)</option><option value="cards-47">Swamp (C19)</option><option value="cards-48">Swamp (C19)</option><option value="cards-49">Swamp (C19)</option><option value="cards-50">Swamp (C19)</option><option value="cards-51">Swamp (C19)</option><option value="cards-52">Unholy Strength (M11)</option><option value="cards-53">Unholy Strength (M11)</option><option value="cards-54">Unholy Strength (M11)</option><option value="cards-55">Unholy Strength (M11)</option><option value="cards-56">Vampire Lacerator (A25)</option><option value="cards-57">Vampire Lacerator (A25)</option><option value="cards-58">Vampire Lacerator (A25)</option><option value="cards-59">Vampire Lacerator (A25)</option></select> </div> <div class="box2 col-md-6">   <label for="bootstrap-duallistbox-selected-list_">Side board</label>   <span class="info-container">     <span class="info">Empty list</span>     <button type="button" class="btn clear2 pull-right btn-default btn-xs">show all</button>   </span>   <input class="filter form-control" type="text" placeholder="Filter">   <div class="btn-group buttons">     <button type="button" class="btn remove btn-default" title="Remove selected">       <i class="glyphicon glyphicon-arrow-left"></i>     </button>     <button type="button" class="btn removeall btn-default" title="Remove all">       <i class="glyphicon glyphicon-arrow-left"></i>       <i class="glyphicon glyphicon-arrow-left"></i>     </button>   </div>   <select multiple="multiple" id="bootstrap-duallistbox-selected-list_" class="form-control" name="_helper2" style="height: 202px;"></select> </div></div><select multiple="multiple" size="20" id="edit-board-select" class="demo2" style="display: none;"><option value="cards-0">Altar's Reap (CM1)</option><option value="cards-1">Altar's Reap (CM1)</option><option value="cards-2">Altar's Reap (CM1)</option><option value="cards-3">Altar's Reap (CM1)</option><option value="cards-4">Banehound (WAR)</option><option value="cards-5">Banehound (WAR)</option><option value="cards-6">Banehound (WAR)</option><option value="cards-7">Banehound (WAR)</option><option value="cards-8">Carnophage (EXO)</option><option value="cards-9">Carnophage (EXO)</option><option value="cards-10">Carnophage (EXO)</option><option value="cards-11">Carnophage (EXO)</option><option value="cards-12">Dark Ritual (A25)</option><option value="cards-13">Dark Ritual (A25)</option><option value="cards-14">Dark Ritual (A25)</option><option value="cards-15">Dark Ritual (A25)</option><option value="cards-16">Essence Harvest (AVR)</option><option value="cards-17">Essence Harvest (AVR)</option><option value="cards-18">Essence Harvest (AVR)</option><option value="cards-19">Sangrophage (TSP)</option><option value="cards-20">Sangrophage (TSP)</option><option value="cards-21">Sangrophage (TSP)</option><option value="cards-22">Sangrophage (TSP)</option><option value="cards-23">Sign in Blood (MM2)</option><option value="cards-24">Sign in Blood (MM2)</option><option value="cards-25">Sign in Blood (MM2)</option><option value="cards-26">Sign in Blood (MM2)</option><option value="cards-27">Soul Kiss (ME2)</option><option value="cards-28">Soul Kiss (ME2)</option><option value="cards-29">Soul Kiss (ME2)</option><option value="cards-30">Soul Kiss (ME2)</option><option value="cards-31">Swamp (C19)</option><option value="cards-32">Swamp (C19)</option><option value="cards-33">Swamp (C19)</option><option value="cards-34">Swamp (C19)</option><option value="cards-35">Swamp (C19)</option><option value="cards-36">Swamp (C19)</option><option value="cards-37">Swamp (C19)</option><option value="cards-38">Swamp (C19)</option><option value="cards-39">Swamp (C19)</option><option value="cards-40">Swamp (C19)</option><option value="cards-41">Swamp (C19)</option><option value="cards-42">Swamp (C19)</option><option value="cards-43">Swamp (C19)</option><option value="cards-44">Swamp (C19)</option><option value="cards-45">Swamp (C19)</option><option value="cards-46">Swamp (C19)</option><option value="cards-47">Swamp (C19)</option><option value="cards-48">Swamp (C19)</option><option value="cards-49">Swamp (C19)</option><option value="cards-50">Swamp (C19)</option><option value="cards-51">Swamp (C19)</option><option value="cards-52">Unholy Strength (M11)</option><option value="cards-53">Unholy Strength (M11)</option><option value="cards-54">Unholy Strength (M11)</option><option value="cards-55">Unholy Strength (M11)</option><option value="cards-56">Vampire Lacerator (A25)</option><option value="cards-57">Vampire Lacerator (A25)</option><option value="cards-58">Vampire Lacerator (A25)</option><option value="cards-59">Vampire Lacerator (A25)</option></select>
+                </form>
+                <br>
+                <a class="btn btn-danger btn-sm" id="reset-boards">Reset boards</a>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default btn-sm" data-dismiss="modal">Close</a>
+                <a class="btn btn-success btn-sm" id="update-board" data-dismiss="modal">Update and Restart</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="custom-token-modal" tabindex="-1" role="dialog" aria-labelledby="custom-token-modal-label">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn btn-danger btn-sm pull-right" type="button" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                <h4 class="modal-title" id="custom-token-modal-label">Add Custom Tokens</h4>
+            </div>
+            <div class="modal-body">
+                <div id="ct-form">
+                    <div class="form-group">
+                        <input class="form-control" rows="1" id="ct-type" name="ct-type" title="" type="text" placeholder="type">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" min="0" max="500" id="ct-power" name="ct-power" title="" type="number" placeholder="power">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" min="0" max="500" id="ct-toughness" name="ct-toughness" title="" type="number" placeholder="toughness">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" min="1" max="10" id="ct-qty" name="ct-qty" title="" type="number" placeholder="quantity">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="ct-clear" class="btn btn-default">Clear</button>
+                <button type="button" id="ct-add" class="btn btn-primary">Add Token(s)</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script id="draw-card-template" type="text/x-handlebars-template">
+    <div class="draggable draw-card {{#if hidden }}hidden{{/if}}"
+        style="background-image: url('{{ mediaRoot }}{{ card.image_path }}')"
+        data-image="{{ mediaRoot }}{{ card.image_path }}"
+        title="{{card.name}}">
+        <div class="face-down {{#if faceDown }}{{else}}hidden{{/if}}"></div>
+        <div class="card-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div>
+</script>
+<script id="draw-ct-template" type="text/x-handlebars-template">
+    <div class="draggable draw-card {{#if hidden }}hidden{{/if}}"
+        style="background-color: grey">
+        <div class="card-type">{{card.type}}</div>
+        <div class="card-ct-counters">
+            <span class="counter"></span>
+            <span class="power-toughness pull-right"></span>
+        </div>
+    </div>
+</script>
+
+
+            
+            
+            
+                
+            
+            
+            <script type="text/javascript">
+                var _sf_async_config={uid:38612,domain:"tappedout.net"};
+                (function(){
+                  function loadChartbeat() {
+                    window._sf_endpt=(new Date()).getTime();
+                    var e = document.createElement('script');
+                    e.setAttribute('language', 'javascript');
+                    e.setAttribute('type', 'text/javascript');
+                    e.setAttribute('src',
+                       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+                       "js/chartbeat.js");
+                    document.body.appendChild(e);
+                  }
+                  var oldonload = window.onload;
+                  window.onload = (typeof window.onload != 'function') ?
+                     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+                })();
+            </script>
+            
+            <script type="text/javascript">
+                function changeBodyPadding() {
+                   var footerHeight = $("#footer").outerHeight() + 20;
+                   $("#body").css("padding-bottom", footerHeight + "px");
+                }
+                // Set div#body padding on load
+                $(window).ready(function(e) {
+                   changeBodyPadding();
+                   $("#footer").removeClass("invisible");
+                });
+                // Set body padding on resize (for responsive purposes)
+                $(window).resize(function(e){
+                   changeBodyPadding();
+                });
+                $(window).ready(function(e){
+                   window.setCommentsEditor();
+                });
+            </script>
+            <script id="card-hover-template-mobile" type="text/x-handlebars-template">
+                
+                
+                <div class="modal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-7">
+                                        <a class="btn btn-block btn-danger" data-dismiss="modal" class="close" aria-label="close">Close</a>
+                                        <div style="position:relative;width:240px;margin:10px 0px 10px 0px">
+                                            <a href="{{ url }}">
+                                                {{#if data.foil }}
+                                                <div style="position:absolute;z-index:1000;width:82%;height:100%;margin-left:21px;background-image:url('{{ STATIC_URL }}/img/foil-card-overlay-2.png');background-size:cover"></div>
+                                                {{/if}}
+                                                <div style="position:relative;display:block;overflow:hidden;width:100% !important;">
+                                                    {{#if data.animatedImage }}
+                                                    <video class="img-responsive card-popover" style="margin:0 auto;" onloadeddata="this.play();" playsinline loop muted>
+                                                        <source src="{{ data.animatedImage }}" type="video/mp4" />
+                                                    </video>
+                                                    {{else}}
+                                                    <img src="{{ data.image }}" style="margin:0 auto;" class="img-responsive screen card-popover" alt="{{ settings.TCG.NAME }} Card: {{ data.name }}"/>
+                                                    {{/if}}
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-5">
+                                        <a class="btn btn-primary btn-block" href="{{ url }}">Visit page</a>
+                                        {{#if data.showPrice }}
+                                        {{#each vendors}}
+                                        <a class="btn btn-block btn-warning" href="{{ this.url }}">{{ this.name }} {{ this.price }}</a>
+                                        {{/each}}
+                                        <a class="btn btn-success btn-block" href="{{ url }}#priceModal">Set Price Alert</a>
+                                        {{/if}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </script>
+            <script id="card-hover-template" type="text/x-handlebars-template">
+            
+                <div style="position:relative;width:220px;">
+                    {{#if data.foil }}
+                    <div style="position:absolute;z-index:1000;width:100%;height:100%;background-image:url('{{ STATIC_URL }}/img/foil-card-overlay-2.png');background-size:cover"></div>
+                    {{/if}}
+                    <div style="position:relative;display:block;overflow:hidden;width:100% !important;">
+                        {{#if data.animatedImage }}
+                        <video class="img-responsive card-popover" style="margin:0 auto;" onloadeddata="this.play();" playsinline loop muted>
+                            <source src="{{ data.animatedImage }}" type="video/mp4" />
+                        </video>
+                        {{else}}
+                        <img src="{{ data.image }}" style="margin:0 auto;" class="img-responsive screen card-popover" alt="{{ settings.TCG.NAME }} Card: {{ data.name }}"/>
+                        {{/if}}
+                        <p style="font-size:12px">
+                            {{#if data.showPrice }}
+                            {{#each vendors}}
+                            <b>{{ this.name }}</b> {{ this.price }} {{#if this.next }} | {{/if}}
+                            {{/each}}
+                            {{/if}}
+                        </p>
+                    </div>
+                </div>
+            
+            </script>
+            <ul id="mana-symbol-menu" class="mana-symbol-menu ui-menu ui-widget ui-widget-content" style="position: absolute; display: none;" role="menu" tabindex="0">
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="B"><span class="mana-symbol-sprite mana-b ui-menu-item-wrapper" id="ui-id-1" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="G"><span class="mana-symbol-sprite mana-g ui-menu-item-wrapper" id="ui-id-2" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="R"><span class="mana-symbol-sprite mana-r ui-menu-item-wrapper" id="ui-id-3" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="U"><span class="mana-symbol-sprite mana-u ui-menu-item-wrapper" id="ui-id-4" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="W"><span class="mana-symbol-sprite mana-w ui-menu-item-wrapper" id="ui-id-5" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="0"><span class="mana-symbol-sprite mana-0 ui-menu-item-wrapper" id="ui-id-6" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="1"><span class="mana-symbol-sprite mana-1 ui-menu-item-wrapper" id="ui-id-7" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="2"><span class="mana-symbol-sprite mana-2 ui-menu-item-wrapper" id="ui-id-8" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="3"><span class="mana-symbol-sprite mana-3 ui-menu-item-wrapper" id="ui-id-9" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="4"><span class="mana-symbol-sprite mana-4 ui-menu-item-wrapper" id="ui-id-10" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="5"><span class="mana-symbol-sprite mana-5 ui-menu-item-wrapper" id="ui-id-11" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="6"><span class="mana-symbol-sprite mana-6 ui-menu-item-wrapper" id="ui-id-12" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="7"><span class="mana-symbol-sprite mana-7 ui-menu-item-wrapper" id="ui-id-13" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="8"><span class="mana-symbol-sprite mana-8 ui-menu-item-wrapper" id="ui-id-14" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="9"><span class="mana-symbol-sprite mana-9 ui-menu-item-wrapper" id="ui-id-15" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="10"><span class="mana-symbol-sprite mana-10 ui-menu-item-wrapper" id="ui-id-16" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="11"><span class="mana-symbol-sprite mana-11 ui-menu-item-wrapper" id="ui-id-17" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="12"><span class="mana-symbol-sprite mana-12 ui-menu-item-wrapper" id="ui-id-18" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="13"><span class="mana-symbol-sprite mana-13 ui-menu-item-wrapper" id="ui-id-19" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="14"><span class="mana-symbol-sprite mana-14 ui-menu-item-wrapper" id="ui-id-20" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="15"><span class="mana-symbol-sprite mana-15 ui-menu-item-wrapper" id="ui-id-21" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="16"><span class="mana-symbol-sprite mana-16 ui-menu-item-wrapper" id="ui-id-22" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="17"><span class="mana-symbol-sprite mana-17 ui-menu-item-wrapper" id="ui-id-23" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="18"><span class="mana-symbol-sprite mana-18 ui-menu-item-wrapper" id="ui-id-24" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="19"><span class="mana-symbol-sprite mana-19 ui-menu-item-wrapper" id="ui-id-25" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="20"><span class="mana-symbol-sprite mana-20 ui-menu-item-wrapper" id="ui-id-26" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="X"><span class="mana-symbol-sprite mana-x ui-menu-item-wrapper" id="ui-id-27" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="y"><span class="mana-symbol-sprite mana-y ui-menu-item-wrapper" id="ui-id-28" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="z"><span class="mana-symbol-sprite mana-z ui-menu-item-wrapper" id="ui-id-29" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="infinite"><span class="mana-symbol-sprite mana-infinite ui-menu-item-wrapper" id="ui-id-30" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="BG"><span class="mana-symbol-sprite mana-bg ui-menu-item-wrapper" id="ui-id-31" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="GW"><span class="mana-symbol-sprite mana-gw ui-menu-item-wrapper" id="ui-id-32" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="RG"><span class="mana-symbol-sprite mana-rg ui-menu-item-wrapper" id="ui-id-33" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="UR"><span class="mana-symbol-sprite mana-ur ui-menu-item-wrapper" id="ui-id-34" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="WB"><span class="mana-symbol-sprite mana-wb ui-menu-item-wrapper" id="ui-id-35" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="BR"><span class="mana-symbol-sprite mana-br ui-menu-item-wrapper" id="ui-id-36" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="GU"><span class="mana-symbol-sprite mana-gu ui-menu-item-wrapper" id="ui-id-37" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="RW"><span class="mana-symbol-sprite mana-rw ui-menu-item-wrapper" id="ui-id-38" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="UB"><span class="mana-symbol-sprite mana-ub ui-menu-item-wrapper" id="ui-id-39" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="WU"><span class="mana-symbol-sprite mana-wu ui-menu-item-wrapper" id="ui-id-40" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="2B"><span class="mana-symbol-sprite mana-2b ui-menu-item-wrapper" id="ui-id-41" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="2G"><span class="mana-symbol-sprite mana-2g ui-menu-item-wrapper" id="ui-id-42" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="2R"><span class="mana-symbol-sprite mana-2r ui-menu-item-wrapper" id="ui-id-43" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="2U"><span class="mana-symbol-sprite mana-2u ui-menu-item-wrapper" id="ui-id-44" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="2W"><span class="mana-symbol-sprite mana-2w ui-menu-item-wrapper" id="ui-id-45" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="PB"><span class="mana-symbol-sprite mana-pb ui-menu-item-wrapper" id="ui-id-46" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="PG"><span class="mana-symbol-sprite mana-pg ui-menu-item-wrapper" id="ui-id-47" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="PR"><span class="mana-symbol-sprite mana-pr ui-menu-item-wrapper" id="ui-id-48" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="PU"><span class="mana-symbol-sprite mana-pu ui-menu-item-wrapper" id="ui-id-49" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="PW"><span class="mana-symbol-sprite mana-pw ui-menu-item-wrapper" id="ui-id-50" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="C"><span class="mana-symbol-sprite mana-c ui-menu-item-wrapper" id="ui-id-51" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="energy"><span class="mana-symbol-sprite mana-energy ui-menu-item-wrapper" id="ui-id-52" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="t"><span class="mana-symbol-sprite mana-t ui-menu-item-wrapper" id="ui-id-53" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="ut"><span class="mana-symbol-sprite mana-ut ui-menu-item-wrapper" id="ui-id-54" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button margin-mana ui-menu-item" data-mana="snow"><span class="mana-symbol-sprite mana-snow ui-menu-item-wrapper" id="ui-id-55" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="saga-1"><span class="mana-symbol-sprite mana-symbol-hexa mana-saga-1 ui-menu-item-wrapper" id="ui-id-56" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="saga-2"><span class="mana-symbol-sprite mana-symbol-hexa mana-saga-2 ui-menu-item-wrapper" id="ui-id-57" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button margin-mana ui-menu-item" data-mana="saga-3"><span class="mana-symbol-sprite mana-symbol-hexa mana-saga-3 ui-menu-item-wrapper" id="ui-id-58" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="loyalty-plus"><span class="mana-symbol-sprite mana-symbol-loyal mana-loyalty-plus ui-menu-item-wrapper" id="ui-id-59" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="loyalty-initial"><span class="mana-symbol-sprite mana-symbol-loyal mana-loyalty-initial ui-menu-item-wrapper" id="ui-id-60" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="loyalty-minus"><span class="mana-symbol-sprite mana-symbol-loyal mana-loyalty-minus ui-menu-item-wrapper" id="ui-id-61" tabindex="-1" role="menuitem"></span></li>
+    <li class="mana-menu mana-symbol-button ui-menu-item" data-mana="loyalty-zero"><span class="mana-symbol-sprite mana-symbol-loyal mana-loyalty-zero ui-menu-item-wrapper" id="ui-id-62" tabindex="-1" role="menuitem"></span></li>
+</ul>
+        </div>
+    
+
+</div><script language="javascript" type="text/javascript" src="./tappedout.net_files/chartbeat.js.download"></script></body></html>

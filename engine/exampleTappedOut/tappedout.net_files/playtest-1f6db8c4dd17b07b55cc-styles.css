@@ -1,0 +1,384 @@
+/*
+ *  Bootstrap Duallistbox - v3.0.6
+ *  A responsive dual listbox widget optimized for Twitter Bootstrap. It works on all modern browsers and on touch devices.
+ *  http://www.virtuosoft.eu/code/bootstrap-duallistbox/
+ *
+ *  Made by István Ujj-Mészáros
+ *  Under Apache License v2.0 License
+ */
+.bootstrap-duallistbox-container .buttons {
+  width: 100%;
+  margin-bottom: -1px;
+}
+
+.bootstrap-duallistbox-container label {
+  display: block;
+}
+
+.bootstrap-duallistbox-container .info {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.bootstrap-duallistbox-container .clear1,
+.bootstrap-duallistbox-container .clear2 {
+  display: none;
+  font-size: 10px;
+}
+
+.bootstrap-duallistbox-container .box1.filtered .clear1,
+.bootstrap-duallistbox-container .box2.filtered .clear2 {
+  display: inline-block;
+}
+
+.bootstrap-duallistbox-container .move,
+.bootstrap-duallistbox-container .remove {
+  width: 60%;
+}
+
+.bootstrap-duallistbox-container .btn-group .btn {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.bootstrap-duallistbox-container select {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.bootstrap-duallistbox-container .moveall,
+.bootstrap-duallistbox-container .removeall {
+  width: 40%;
+}
+
+.bootstrap-duallistbox-container.bs2compatible .btn-group > .btn + .btn {
+  margin-left: 0;
+}
+
+.bootstrap-duallistbox-container select {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+}
+
+.bootstrap-duallistbox-container .filter {
+  display: inline-block;
+  width: 100%;
+  height: 31px;
+  margin: 0 0 5px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bootstrap-duallistbox-container .filter.placeholder {
+  color: #aaa;
+}
+
+.bootstrap-duallistbox-container.moveonselect .move,
+.bootstrap-duallistbox-container.moveonselect .remove {
+  display:none;
+}
+
+.bootstrap-duallistbox-container.moveonselect .moveall,
+.bootstrap-duallistbox-container.moveonselect .removeall {
+  width: 100%;
+}
+body {
+    background-image: url(4a8d80d2fd8492f82c247f26aeec0172.png);
+}
+
+#sitebody {
+    padding-top: 0;
+}
+
+.navbar-fixed-top {
+    position: relative;
+    display:none;
+}
+
+#desktop, .alert {
+    display: none;
+}
+
+.draw-card {
+    height: 122px;
+    width: 86px;
+    margin-right: 0;
+    border: #000 3px solid;
+    border-radius: 4px;
+    background-size: 80px 116px;
+    background-position: center;
+    background-color: black;
+    display: inline-block;
+}
+
+@media(min-width: 992px){
+    #hand .draw-card:not(.small), #battlefield .draw-card:not(.small){
+        height: 176px;
+        width: 126px;
+        background-size: 120px 170px;
+    }
+}
+
+@media(max-width:767px){
+    #battlefield .draw-card.small{
+        height: 92px;
+        width: 65px;
+        background-size: 59px 86px;
+    }
+}
+
+.card-counters, .card-ct-counters {
+    display: none;
+    top: 120px;
+    position: relative;
+    padding: 0px 4px;
+    color: #c8b472;
+}
+
+#battlefield .draw-card .card-type {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px 3px;
+}
+
+#battlefield .card-counters, #battlefield .card-ct-counters {
+    display: block;
+}
+
+.face-down:not(.hidden) ~ .card-counters {
+    display: none !important;
+}
+
+@media(min-width: 992px){
+    #battlefield .draw-card:not(.small) .card-counters {
+        top: 175px;
+    }
+}
+
+@media(max-width:767px){
+    #battlefield .draw-card.small .card-counters {
+        top: 90px;
+    }
+}
+
+@media(min-width: 992px){
+    #battlefield .draw-card:not(.small) .card-ct-counters {
+        top: 155px;
+    }
+}
+
+@media(max-width:767px){
+    #battlefield .draw-card.small .card-ct-counters {
+        top: 70px;
+    }
+}
+
+.face-down {
+    height: 100%;
+    width: 100%;
+    background-size: 86px 122px;
+    background-position: center;
+    background-image: url(3f8906c9443573dfcf27aa3936508f53.png);
+}
+
+@media(min-width: 992px){
+    #hand .draw-card:not(.small) .face-down, #battlefield .draw-card:not(.small) .face-down {
+        background-size: 126px 176px;
+        background-image: url(a42553e67713304804e951042edf0394.png);
+    }
+}
+
+@media(max-width:767px){
+    #battlefield .draw-card.small .face-down {
+        background-size: 65px 92px;
+    }
+}
+
+.draw-card:hover {
+    border-color: #fafeb2;
+}
+
+#battlefield {
+    height: 100%;
+    margin: 0;
+}
+
+.battlefield-cell {
+    height: 122px;
+    display: inline-block;
+    margin: 10px 30px 40px 20px;
+}
+
+@media(min-width:992px){
+    .battlefield-cell {
+        height: 200px;
+    }
+}
+
+*[class^="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fixed-zone {
+    width: 108px;
+}
+
+.droppable {
+    min-height: 139px;
+    margin: 0;
+}
+
+
+.tapped {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -moz-transform: rotate(90deg); /* Firefox */
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -o-transform: rotate(90deg); /* Opera */
+}
+
+.tapped .card-counters {
+  transform: rotate(-90deg) !important;
+  -ms-transform: rotate(-90deg) !important; /* IE 9 */
+  -moz-transform: rotate(-90deg) !important; /* Firefox */
+  -webkit-transform: rotate(-90deg) !important; /* Safari and Chrome */
+  -o-transform: rotate(-90deg) !important; /* Opera */
+
+  top: 58px;
+  left: 62px;
+}
+
+@media(min-width:992px){
+    #battlefield .draw-card:not(.small).tapped .card-counters {
+        top: 75px;
+        left: 75px;
+    }
+}
+
+@media(max-width:767px){
+    #battlefield .draw-card.small.tapped .card-counters {
+        top: 35px;
+        left: 40px;
+    }
+}
+
+.well {
+    border: 1px dashed #44322b;
+    background-image: url(df5abbb5c4d4343ea09d64d1f1874b5e.png);
+    padding: 5px;
+}
+
+.well.card-over {
+    border-color: #9d7c41;
+}
+
+.battlefield-header {
+    margin-top: 5px;
+}
+
+.btn-toolbar .btn-group {
+    margin-bottom: 5px;
+}
+.sidebar  .btn-group {
+    margin-bottom: 5px;
+}
+.sidebar  .btn-block {
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c8b472;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title-stats {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    color: #c8b472;
+    margin-bottom: 5px;
+    padding-left: 0;
+}
+
+.title-stats .btn-danger {
+    margin-left: 10px;
+}
+
+.btn-big-group {
+    padding-bottom: 10px;
+}
+
+.btn-sm {
+    font-size: 13px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 350px;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+h3 .dropdown-toggle, h3 .dropdown-toggle:hover,
+   .title-stats .dropdown-toggle,
+   .title-stats .dropdown-toggle:hover {
+    text-decoration: none;
+    color: #c8b472;
+    cursor: pointer;
+}
+
+ .title-stats .dropdown-toggle {
+    padding-left: 10px;
+ }
+
+#hand-list {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.playtest-popover {
+    z-index: 500;
+    width: 200px;
+}
+
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
+
+#card-detail .form-group {
+    text-align: center;
+}
+
+#card-detail input {
+    text-align: right;
+}
+
+#card-detail .actions {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.deck-chart {
+  width: 25px;
+  height: 25px;
+}
+
+.deck-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+}
